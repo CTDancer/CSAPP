@@ -1,0 +1,575 @@
+In archive build/libA.a:
+
+notA.a.o:     file format elf64-x86-64
+rw-r--r-- 0/0  25728 Jan  1 08:00 1970 notA.a.o
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000 notA.a.cpp
+0000000000000000 l    d  .text	0000000000000000 .text
+0000000000000000 l    d  .data	0000000000000000 .data
+0000000000000000 l    d  .bss	0000000000000000 .bss
+0000000000000000 l    d  .rodata	0000000000000000 .rodata
+0000000000000000 l     O .rodata	0000000000000001 std::piecewise_construct
+0000000000000001 l     O .rodata	0000000000000001 std::allocator_arg
+0000000000000002 l     O .rodata	0000000000000001 std::ignore
+0000000000000000 l     O .bss	0000000000000001 std::__ioinit
+0000000000000004 l     O .rodata	0000000000000004 __gnu_cxx::__default_lock_policy
+0000000000000008 l     O .rodata	0000000000000001 std::defer_lock
+0000000000000009 l     O .rodata	0000000000000001 std::try_to_lock
+000000000000000a l     O .rodata	0000000000000001 std::adopt_lock
+000000000000000c l     O .rodata	0000000000000004 std::regex_constants::icase
+0000000000000010 l     O .rodata	0000000000000004 std::regex_constants::nosubs
+0000000000000014 l     O .rodata	0000000000000004 std::regex_constants::optimize
+0000000000000018 l     O .rodata	0000000000000004 std::regex_constants::collate
+000000000000001c l     O .rodata	0000000000000004 std::regex_constants::ECMAScript
+0000000000000020 l     O .rodata	0000000000000004 std::regex_constants::basic
+0000000000000024 l     O .rodata	0000000000000004 std::regex_constants::extended
+0000000000000028 l     O .rodata	0000000000000004 std::regex_constants::awk
+000000000000002c l     O .rodata	0000000000000004 std::regex_constants::grep
+0000000000000030 l     O .rodata	0000000000000004 std::regex_constants::egrep
+0000000000000034 l     O .rodata	0000000000000004 std::regex_constants::__polynomial
+0000000000000038 l     O .rodata	0000000000000004 std::regex_constants::match_default
+000000000000003c l     O .rodata	0000000000000004 std::regex_constants::match_not_bol
+0000000000000040 l     O .rodata	0000000000000004 std::regex_constants::match_not_eol
+0000000000000044 l     O .rodata	0000000000000004 std::regex_constants::match_not_bow
+0000000000000048 l     O .rodata	0000000000000004 std::regex_constants::match_not_eow
+000000000000004c l     O .rodata	0000000000000004 std::regex_constants::match_any
+0000000000000050 l     O .rodata	0000000000000004 std::regex_constants::match_not_null
+0000000000000054 l     O .rodata	0000000000000004 std::regex_constants::match_continuous
+0000000000000058 l     O .rodata	0000000000000004 std::regex_constants::match_prev_avail
+000000000000005c l     O .rodata	0000000000000004 std::regex_constants::format_default
+0000000000000060 l     O .rodata	0000000000000004 std::regex_constants::format_sed
+0000000000000064 l     O .rodata	0000000000000004 std::regex_constants::format_no_copy
+0000000000000068 l     O .rodata	0000000000000004 std::regex_constants::format_first_only
+000000000000006c l     O .rodata	0000000000000004 std::regex_constants::error_collate
+0000000000000070 l     O .rodata	0000000000000004 std::regex_constants::error_ctype
+0000000000000074 l     O .rodata	0000000000000004 std::regex_constants::error_escape
+0000000000000078 l     O .rodata	0000000000000004 std::regex_constants::error_backref
+000000000000007c l     O .rodata	0000000000000004 std::regex_constants::error_brack
+0000000000000080 l     O .rodata	0000000000000004 std::regex_constants::error_paren
+0000000000000084 l     O .rodata	0000000000000004 std::regex_constants::error_brace
+0000000000000088 l     O .rodata	0000000000000004 std::regex_constants::error_badbrace
+000000000000008c l     O .rodata	0000000000000004 std::regex_constants::error_range
+0000000000000090 l     O .rodata	0000000000000004 std::regex_constants::error_space
+0000000000000094 l     O .rodata	0000000000000004 std::regex_constants::error_badrepeat
+0000000000000098 l     O .rodata	0000000000000004 std::regex_constants::error_complexity
+000000000000009c l     O .rodata	0000000000000004 std::regex_constants::error_stack
+00000000000000a0 l     O .rodata	0000000000000008 std::__detail::_S_invalid_state_id
+0000000000000020 l     O .bss	0000000000000020 MassSTR
+0000000000000000 l     F .text	0000000000000016 LenOfMassSTR()
+0000000000000065 l     F .text	00000000000000ec __static_initialization_and_destruction_0(int, int)
+0000000000000000 l    d  .gcc_except_table	0000000000000000 .gcc_except_table
+0000000000000151 l     F .text	0000000000000019 _GLOBAL__sub_I__Z1Av
+0000000000000000 l    d  .init_array	0000000000000000 .init_array
+0000000000000000 l    d  .data.rel.local.DW.ref.__gxx_personality_v0	0000000000000000 .data.rel.local.DW.ref.__gxx_personality_v0
+0000000000000000 l    d  .note.GNU-stack	0000000000000000 .note.GNU-stack
+0000000000000000 l    d  .note.gnu.property	0000000000000000 .note.gnu.property
+0000000000000000 l    d  .eh_frame	0000000000000000 .eh_frame
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 l    d  .group	0000000000000000 .group
+0000000000000000         *UND*	0000000000000000 _GLOBAL_OFFSET_TABLE_
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const
+0000000000000016 g     F .text	000000000000004f A()
+0000000000000000         *UND*	0000000000000000 std::cout
+0000000000000000         *UND*	0000000000000000 std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+0000000000000000         *UND*	0000000000000000 std::ostream::operator<<(int)
+0000000000000000         *UND*	0000000000000000 std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000         *UND*	0000000000000000 std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+0000000000000000  w    O .data.rel.local.DW.ref.__gxx_personality_v0	0000000000000008 .hidden DW.ref.__gxx_personality_v0
+0000000000000000         *UND*	0000000000000000 std::ios_base::Init::Init()
+0000000000000000         *UND*	0000000000000000 .hidden __dso_handle
+0000000000000000         *UND*	0000000000000000 std::ios_base::Init::~Init()
+0000000000000000         *UND*	0000000000000000 __cxa_atexit
+0000000000000000         *UND*	0000000000000000 std::allocator<char>::allocator()
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+0000000000000000         *UND*	0000000000000000 std::allocator<char>::~allocator()
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+0000000000000000         *UND*	0000000000000000 _Unwind_Resume
+0000000000000000         *UND*	0000000000000000 __stack_chk_fail
+0000000000000000         *UND*	0000000000000000 __gxx_personality_v0
+
+
+
+A.a.o:     file format elf64-x86-64
+rw-r--r-- 0/0  25808 Jan  1 08:00 1970 A.a.o
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000 A.a.cpp
+0000000000000000 l    d  .text	0000000000000000 .text
+0000000000000000 l    d  .data	0000000000000000 .data
+0000000000000000 l    d  .bss	0000000000000000 .bss
+0000000000000000 l    d  .rodata	0000000000000000 .rodata
+0000000000000000 l     O .rodata	0000000000000001 std::piecewise_construct
+0000000000000001 l     O .rodata	0000000000000001 std::allocator_arg
+0000000000000002 l     O .rodata	0000000000000001 std::ignore
+0000000000000004 l     O .bss	0000000000000001 std::__ioinit
+0000000000000004 l     O .rodata	0000000000000004 __gnu_cxx::__default_lock_policy
+0000000000000008 l     O .rodata	0000000000000001 std::defer_lock
+0000000000000009 l     O .rodata	0000000000000001 std::try_to_lock
+000000000000000a l     O .rodata	0000000000000001 std::adopt_lock
+000000000000000c l     O .rodata	0000000000000004 std::regex_constants::icase
+0000000000000010 l     O .rodata	0000000000000004 std::regex_constants::nosubs
+0000000000000014 l     O .rodata	0000000000000004 std::regex_constants::optimize
+0000000000000018 l     O .rodata	0000000000000004 std::regex_constants::collate
+000000000000001c l     O .rodata	0000000000000004 std::regex_constants::ECMAScript
+0000000000000020 l     O .rodata	0000000000000004 std::regex_constants::basic
+0000000000000024 l     O .rodata	0000000000000004 std::regex_constants::extended
+0000000000000028 l     O .rodata	0000000000000004 std::regex_constants::awk
+000000000000002c l     O .rodata	0000000000000004 std::regex_constants::grep
+0000000000000030 l     O .rodata	0000000000000004 std::regex_constants::egrep
+0000000000000034 l     O .rodata	0000000000000004 std::regex_constants::__polynomial
+0000000000000038 l     O .rodata	0000000000000004 std::regex_constants::match_default
+000000000000003c l     O .rodata	0000000000000004 std::regex_constants::match_not_bol
+0000000000000040 l     O .rodata	0000000000000004 std::regex_constants::match_not_eol
+0000000000000044 l     O .rodata	0000000000000004 std::regex_constants::match_not_bow
+0000000000000048 l     O .rodata	0000000000000004 std::regex_constants::match_not_eow
+000000000000004c l     O .rodata	0000000000000004 std::regex_constants::match_any
+0000000000000050 l     O .rodata	0000000000000004 std::regex_constants::match_not_null
+0000000000000054 l     O .rodata	0000000000000004 std::regex_constants::match_continuous
+0000000000000058 l     O .rodata	0000000000000004 std::regex_constants::match_prev_avail
+000000000000005c l     O .rodata	0000000000000004 std::regex_constants::format_default
+0000000000000060 l     O .rodata	0000000000000004 std::regex_constants::format_sed
+0000000000000064 l     O .rodata	0000000000000004 std::regex_constants::format_no_copy
+0000000000000068 l     O .rodata	0000000000000004 std::regex_constants::format_first_only
+000000000000006c l     O .rodata	0000000000000004 std::regex_constants::error_collate
+0000000000000070 l     O .rodata	0000000000000004 std::regex_constants::error_ctype
+0000000000000074 l     O .rodata	0000000000000004 std::regex_constants::error_escape
+0000000000000078 l     O .rodata	0000000000000004 std::regex_constants::error_backref
+000000000000007c l     O .rodata	0000000000000004 std::regex_constants::error_brack
+0000000000000080 l     O .rodata	0000000000000004 std::regex_constants::error_paren
+0000000000000084 l     O .rodata	0000000000000004 std::regex_constants::error_brace
+0000000000000088 l     O .rodata	0000000000000004 std::regex_constants::error_badbrace
+000000000000008c l     O .rodata	0000000000000004 std::regex_constants::error_range
+0000000000000090 l     O .rodata	0000000000000004 std::regex_constants::error_space
+0000000000000094 l     O .rodata	0000000000000004 std::regex_constants::error_badrepeat
+0000000000000098 l     O .rodata	0000000000000004 std::regex_constants::error_complexity
+000000000000009c l     O .rodata	0000000000000004 std::regex_constants::error_stack
+00000000000000a0 l     O .rodata	0000000000000008 std::__detail::_S_invalid_state_id
+0000000000000020 l     O .bss	0000000000000020 MassSTR
+0000000000000000 l     F .text	0000000000000016 LenOfMassSTR()
+00000000000000a8 l     O .rodata	0000000000000004 d
+0000000000000065 l     F .text	00000000000000ec __static_initialization_and_destruction_0(int, int)
+0000000000000000 l    d  .gcc_except_table	0000000000000000 .gcc_except_table
+0000000000000151 l     F .text	0000000000000019 _GLOBAL__sub_I__Z1Av
+0000000000000000 l    d  .init_array	0000000000000000 .init_array
+0000000000000000 l    d  .data.rel.local.DW.ref.__gxx_personality_v0	0000000000000000 .data.rel.local.DW.ref.__gxx_personality_v0
+0000000000000000 l    d  .note.GNU-stack	0000000000000000 .note.GNU-stack
+0000000000000000 l    d  .note.gnu.property	0000000000000000 .note.gnu.property
+0000000000000000 l    d  .eh_frame	0000000000000000 .eh_frame
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 l    d  .group	0000000000000000 .group
+0000000000000000         *UND*	0000000000000000 _GLOBAL_OFFSET_TABLE_
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const
+0000000000000004       O *COM*	0000000000000004 a
+0000000000000000  w    O .bss	0000000000000004 b
+0000000000000016 g     F .text	000000000000004f A()
+0000000000000000         *UND*	0000000000000000 std::cout
+0000000000000000         *UND*	0000000000000000 std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+0000000000000000         *UND*	0000000000000000 std::ostream::operator<<(int)
+0000000000000000         *UND*	0000000000000000 std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000         *UND*	0000000000000000 std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+0000000000000000  w    O .data.rel.local.DW.ref.__gxx_personality_v0	0000000000000008 .hidden DW.ref.__gxx_personality_v0
+0000000000000000         *UND*	0000000000000000 std::ios_base::Init::Init()
+0000000000000000         *UND*	0000000000000000 .hidden __dso_handle
+0000000000000000         *UND*	0000000000000000 std::ios_base::Init::~Init()
+0000000000000000         *UND*	0000000000000000 __cxa_atexit
+0000000000000000         *UND*	0000000000000000 std::allocator<char>::allocator()
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+0000000000000000         *UND*	0000000000000000 std::allocator<char>::~allocator()
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+0000000000000000         *UND*	0000000000000000 _Unwind_Resume
+0000000000000000         *UND*	0000000000000000 __stack_chk_fail
+0000000000000000         *UND*	0000000000000000 __gxx_personality_v0
+
+
+
+some.a.o:     file format elf64-x86-64
+rw-r--r-- 0/0  25808 Jan  1 08:00 1970 some.a.o
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000 some.a.cpp
+0000000000000000 l    d  .text	0000000000000000 .text
+0000000000000000 l    d  .data	0000000000000000 .data
+0000000000000000 l    d  .bss	0000000000000000 .bss
+0000000000000000 l    d  .rodata	0000000000000000 .rodata
+0000000000000000 l     O .rodata	0000000000000001 std::piecewise_construct
+0000000000000001 l     O .rodata	0000000000000001 std::allocator_arg
+0000000000000002 l     O .rodata	0000000000000001 std::ignore
+0000000000000000 l     O .bss	0000000000000001 std::__ioinit
+0000000000000004 l     O .rodata	0000000000000004 __gnu_cxx::__default_lock_policy
+0000000000000008 l     O .rodata	0000000000000001 std::defer_lock
+0000000000000009 l     O .rodata	0000000000000001 std::try_to_lock
+000000000000000a l     O .rodata	0000000000000001 std::adopt_lock
+000000000000000c l     O .rodata	0000000000000004 std::regex_constants::icase
+0000000000000010 l     O .rodata	0000000000000004 std::regex_constants::nosubs
+0000000000000014 l     O .rodata	0000000000000004 std::regex_constants::optimize
+0000000000000018 l     O .rodata	0000000000000004 std::regex_constants::collate
+000000000000001c l     O .rodata	0000000000000004 std::regex_constants::ECMAScript
+0000000000000020 l     O .rodata	0000000000000004 std::regex_constants::basic
+0000000000000024 l     O .rodata	0000000000000004 std::regex_constants::extended
+0000000000000028 l     O .rodata	0000000000000004 std::regex_constants::awk
+000000000000002c l     O .rodata	0000000000000004 std::regex_constants::grep
+0000000000000030 l     O .rodata	0000000000000004 std::regex_constants::egrep
+0000000000000034 l     O .rodata	0000000000000004 std::regex_constants::__polynomial
+0000000000000038 l     O .rodata	0000000000000004 std::regex_constants::match_default
+000000000000003c l     O .rodata	0000000000000004 std::regex_constants::match_not_bol
+0000000000000040 l     O .rodata	0000000000000004 std::regex_constants::match_not_eol
+0000000000000044 l     O .rodata	0000000000000004 std::regex_constants::match_not_bow
+0000000000000048 l     O .rodata	0000000000000004 std::regex_constants::match_not_eow
+000000000000004c l     O .rodata	0000000000000004 std::regex_constants::match_any
+0000000000000050 l     O .rodata	0000000000000004 std::regex_constants::match_not_null
+0000000000000054 l     O .rodata	0000000000000004 std::regex_constants::match_continuous
+0000000000000058 l     O .rodata	0000000000000004 std::regex_constants::match_prev_avail
+000000000000005c l     O .rodata	0000000000000004 std::regex_constants::format_default
+0000000000000060 l     O .rodata	0000000000000004 std::regex_constants::format_sed
+0000000000000064 l     O .rodata	0000000000000004 std::regex_constants::format_no_copy
+0000000000000068 l     O .rodata	0000000000000004 std::regex_constants::format_first_only
+000000000000006c l     O .rodata	0000000000000004 std::regex_constants::error_collate
+0000000000000070 l     O .rodata	0000000000000004 std::regex_constants::error_ctype
+0000000000000074 l     O .rodata	0000000000000004 std::regex_constants::error_escape
+0000000000000078 l     O .rodata	0000000000000004 std::regex_constants::error_backref
+000000000000007c l     O .rodata	0000000000000004 std::regex_constants::error_brack
+0000000000000080 l     O .rodata	0000000000000004 std::regex_constants::error_paren
+0000000000000084 l     O .rodata	0000000000000004 std::regex_constants::error_brace
+0000000000000088 l     O .rodata	0000000000000004 std::regex_constants::error_badbrace
+000000000000008c l     O .rodata	0000000000000004 std::regex_constants::error_range
+0000000000000090 l     O .rodata	0000000000000004 std::regex_constants::error_space
+0000000000000094 l     O .rodata	0000000000000004 std::regex_constants::error_badrepeat
+0000000000000098 l     O .rodata	0000000000000004 std::regex_constants::error_complexity
+000000000000009c l     O .rodata	0000000000000004 std::regex_constants::error_stack
+00000000000000a0 l     O .rodata	0000000000000008 std::__detail::_S_invalid_state_id
+0000000000000020 l     O .bss	0000000000000020 MassSTR
+0000000000000000 l     F .text	0000000000000016 LenOfMassSTR()
+0000000000000086 l     F .text	00000000000000ec __static_initialization_and_destruction_0(int, int)
+0000000000000000 l    d  .gcc_except_table	0000000000000000 .gcc_except_table
+0000000000000172 l     F .text	0000000000000019 _GLOBAL__sub_I__Z8notATestv
+0000000000000000 l    d  .init_array	0000000000000000 .init_array
+0000000000000000 l    d  .data.rel.local.DW.ref.__gxx_personality_v0	0000000000000000 .data.rel.local.DW.ref.__gxx_personality_v0
+0000000000000000 l    d  .note.GNU-stack	0000000000000000 .note.GNU-stack
+0000000000000000 l    d  .note.gnu.property	0000000000000000 .note.gnu.property
+0000000000000000 l    d  .eh_frame	0000000000000000 .eh_frame
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 l    d  .group	0000000000000000 .group
+0000000000000000         *UND*	0000000000000000 _GLOBAL_OFFSET_TABLE_
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const
+0000000000000016 g     F .text	0000000000000017 notATest()
+0000000000000000         *UND*	0000000000000000 puts
+000000000000002d g     F .text	0000000000000017 testPrint()
+0000000000000044 g     F .text	0000000000000042 testPrint(int)
+0000000000000000         *UND*	0000000000000000 printf
+0000000000000000  w    O .data.rel.local.DW.ref.__gxx_personality_v0	0000000000000008 .hidden DW.ref.__gxx_personality_v0
+0000000000000000         *UND*	0000000000000000 std::ios_base::Init::Init()
+0000000000000000         *UND*	0000000000000000 .hidden __dso_handle
+0000000000000000         *UND*	0000000000000000 std::ios_base::Init::~Init()
+0000000000000000         *UND*	0000000000000000 __cxa_atexit
+0000000000000000         *UND*	0000000000000000 std::allocator<char>::allocator()
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+0000000000000000         *UND*	0000000000000000 std::allocator<char>::~allocator()
+0000000000000000         *UND*	0000000000000000 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+0000000000000000         *UND*	0000000000000000 _Unwind_Resume
+0000000000000000         *UND*	0000000000000000 __stack_chk_fail
+0000000000000000         *UND*	0000000000000000 __gxx_personality_v0
+
+
+
+build/main:     file format elf64-x86-64
+build/main
+
+SYMBOL TABLE:
+0000000000000318 l    d  .interp	0000000000000000              .interp
+0000000000000338 l    d  .note.gnu.property	0000000000000000              .note.gnu.property
+0000000000000358 l    d  .note.gnu.build-id	0000000000000000              .note.gnu.build-id
+000000000000037c l    d  .note.ABI-tag	0000000000000000              .note.ABI-tag
+00000000000003a0 l    d  .gnu.hash	0000000000000000              .gnu.hash
+00000000000003c8 l    d  .dynsym	0000000000000000              .dynsym
+0000000000000608 l    d  .dynstr	0000000000000000              .dynstr
+00000000000008c4 l    d  .gnu.version	0000000000000000              .gnu.version
+00000000000008f8 l    d  .gnu.version_r	0000000000000000              .gnu.version_r
+0000000000000988 l    d  .rela.dyn	0000000000000000              .rela.dyn
+0000000000000b20 l    d  .rela.plt	0000000000000000              .rela.plt
+0000000000001000 l    d  .init	0000000000000000              .init
+0000000000001020 l    d  .plt	0000000000000000              .plt
+0000000000001100 l    d  .plt.got	0000000000000000              .plt.got
+0000000000001110 l    d  .plt.sec	0000000000000000              .plt.sec
+00000000000011e0 l    d  .text	0000000000000000              .text
+0000000000001908 l    d  .fini	0000000000000000              .fini
+0000000000002000 l    d  .rodata	0000000000000000              .rodata
+0000000000013fcc l    d  .eh_frame_hdr	0000000000000000              .eh_frame_hdr
+0000000000014098 l    d  .eh_frame	0000000000000000              .eh_frame
+0000000000014410 l    d  .gcc_except_table	0000000000000000              .gcc_except_table
+0000000000015d00 l    d  .init_array	0000000000000000              .init_array
+0000000000015d28 l    d  .fini_array	0000000000000000              .fini_array
+0000000000015d30 l    d  .dynamic	0000000000000000              .dynamic
+0000000000015f40 l    d  .got	0000000000000000              .got
+0000000000016000 l    d  .data	0000000000000000              .data
+0000000000016040 l    d  .bss	0000000000000000              .bss
+0000000000000000 l    d  .comment	0000000000000000              .comment
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+0000000000001210 l     F .text	0000000000000000              deregister_tm_clones
+0000000000001240 l     F .text	0000000000000000              register_tm_clones
+0000000000001280 l     F .text	0000000000000000              __do_global_dtors_aux
+0000000000016150 l     O .bss	0000000000000001              completed.8061
+0000000000015d28 l     O .fini_array	0000000000000000              __do_global_dtors_aux_fini_array_entry
+00000000000012c0 l     F .text	0000000000000000              frame_dummy
+0000000000015d00 l     O .init_array	0000000000000000              __frame_dummy_init_array_entry
+0000000000000000 l    df *ABS*	0000000000000000              main.cpp
+0000000000002008 l     O .rodata	0000000000000001              std::piecewise_construct
+0000000000002009 l     O .rodata	0000000000000001              std::allocator_arg
+000000000000200a l     O .rodata	0000000000000001              std::ignore
+0000000000016170 l     O .bss	0000000000000001              std::__ioinit
+000000000000200c l     O .rodata	0000000000000004              __gnu_cxx::__default_lock_policy
+0000000000002010 l     O .rodata	0000000000000001              std::defer_lock
+0000000000002011 l     O .rodata	0000000000000001              std::try_to_lock
+0000000000002012 l     O .rodata	0000000000000001              std::adopt_lock
+0000000000002014 l     O .rodata	0000000000000004              std::regex_constants::icase
+0000000000002018 l     O .rodata	0000000000000004              std::regex_constants::nosubs
+000000000000201c l     O .rodata	0000000000000004              std::regex_constants::optimize
+0000000000002020 l     O .rodata	0000000000000004              std::regex_constants::collate
+0000000000002024 l     O .rodata	0000000000000004              std::regex_constants::ECMAScript
+0000000000002028 l     O .rodata	0000000000000004              std::regex_constants::basic
+000000000000202c l     O .rodata	0000000000000004              std::regex_constants::extended
+0000000000002030 l     O .rodata	0000000000000004              std::regex_constants::awk
+0000000000002034 l     O .rodata	0000000000000004              std::regex_constants::grep
+0000000000002038 l     O .rodata	0000000000000004              std::regex_constants::egrep
+000000000000203c l     O .rodata	0000000000000004              std::regex_constants::__polynomial
+0000000000002040 l     O .rodata	0000000000000004              std::regex_constants::match_default
+0000000000002044 l     O .rodata	0000000000000004              std::regex_constants::match_not_bol
+0000000000002048 l     O .rodata	0000000000000004              std::regex_constants::match_not_eol
+000000000000204c l     O .rodata	0000000000000004              std::regex_constants::match_not_bow
+0000000000002050 l     O .rodata	0000000000000004              std::regex_constants::match_not_eow
+0000000000002054 l     O .rodata	0000000000000004              std::regex_constants::match_any
+0000000000002058 l     O .rodata	0000000000000004              std::regex_constants::match_not_null
+000000000000205c l     O .rodata	0000000000000004              std::regex_constants::match_continuous
+0000000000002060 l     O .rodata	0000000000000004              std::regex_constants::match_prev_avail
+0000000000002064 l     O .rodata	0000000000000004              std::regex_constants::format_default
+0000000000002068 l     O .rodata	0000000000000004              std::regex_constants::format_sed
+000000000000206c l     O .rodata	0000000000000004              std::regex_constants::format_no_copy
+0000000000002070 l     O .rodata	0000000000000004              std::regex_constants::format_first_only
+0000000000002074 l     O .rodata	0000000000000004              std::regex_constants::error_collate
+0000000000002078 l     O .rodata	0000000000000004              std::regex_constants::error_ctype
+000000000000207c l     O .rodata	0000000000000004              std::regex_constants::error_escape
+0000000000002080 l     O .rodata	0000000000000004              std::regex_constants::error_backref
+0000000000002084 l     O .rodata	0000000000000004              std::regex_constants::error_brack
+0000000000002088 l     O .rodata	0000000000000004              std::regex_constants::error_paren
+000000000000208c l     O .rodata	0000000000000004              std::regex_constants::error_brace
+0000000000002090 l     O .rodata	0000000000000004              std::regex_constants::error_badbrace
+0000000000002094 l     O .rodata	0000000000000004              std::regex_constants::error_range
+0000000000002098 l     O .rodata	0000000000000004              std::regex_constants::error_space
+000000000000209c l     O .rodata	0000000000000004              std::regex_constants::error_badrepeat
+00000000000020a0 l     O .rodata	0000000000000004              std::regex_constants::error_complexity
+00000000000020a4 l     O .rodata	0000000000000004              std::regex_constants::error_stack
+00000000000020a8 l     O .rodata	0000000000000008              std::__detail::_S_invalid_state_id
+0000000000016180 l     O .bss	0000000000000020              MassSTR
+00000000000012c9 l     F .text	0000000000000016              LenOfMassSTR()
+000000000000133c l     F .text	00000000000000ec              __static_initialization_and_destruction_0(int, int)
+0000000000001428 l     F .text	0000000000000019              _GLOBAL__sub_I_a
+0000000000000000 l    df *ABS*	0000000000000000              B.b.cpp
+00000000000067e8 l     O .rodata	0000000000000001              std::piecewise_construct
+00000000000067e9 l     O .rodata	0000000000000001              std::allocator_arg
+00000000000067ea l     O .rodata	0000000000000001              std::ignore
+00000000000161a0 l     O .bss	0000000000000001              std::__ioinit
+00000000000067ec l     O .rodata	0000000000000004              __gnu_cxx::__default_lock_policy
+00000000000067f0 l     O .rodata	0000000000000001              std::defer_lock
+00000000000067f1 l     O .rodata	0000000000000001              std::try_to_lock
+00000000000067f2 l     O .rodata	0000000000000001              std::adopt_lock
+00000000000067f4 l     O .rodata	0000000000000004              std::regex_constants::icase
+00000000000067f8 l     O .rodata	0000000000000004              std::regex_constants::nosubs
+00000000000067fc l     O .rodata	0000000000000004              std::regex_constants::optimize
+0000000000006800 l     O .rodata	0000000000000004              std::regex_constants::collate
+0000000000006804 l     O .rodata	0000000000000004              std::regex_constants::ECMAScript
+0000000000006808 l     O .rodata	0000000000000004              std::regex_constants::basic
+000000000000680c l     O .rodata	0000000000000004              std::regex_constants::extended
+0000000000006810 l     O .rodata	0000000000000004              std::regex_constants::awk
+0000000000006814 l     O .rodata	0000000000000004              std::regex_constants::grep
+0000000000006818 l     O .rodata	0000000000000004              std::regex_constants::egrep
+000000000000681c l     O .rodata	0000000000000004              std::regex_constants::__polynomial
+0000000000006820 l     O .rodata	0000000000000004              std::regex_constants::match_default
+0000000000006824 l     O .rodata	0000000000000004              std::regex_constants::match_not_bol
+0000000000006828 l     O .rodata	0000000000000004              std::regex_constants::match_not_eol
+000000000000682c l     O .rodata	0000000000000004              std::regex_constants::match_not_bow
+0000000000006830 l     O .rodata	0000000000000004              std::regex_constants::match_not_eow
+0000000000006834 l     O .rodata	0000000000000004              std::regex_constants::match_any
+0000000000006838 l     O .rodata	0000000000000004              std::regex_constants::match_not_null
+000000000000683c l     O .rodata	0000000000000004              std::regex_constants::match_continuous
+0000000000006840 l     O .rodata	0000000000000004              std::regex_constants::match_prev_avail
+0000000000006844 l     O .rodata	0000000000000004              std::regex_constants::format_default
+0000000000006848 l     O .rodata	0000000000000004              std::regex_constants::format_sed
+000000000000684c l     O .rodata	0000000000000004              std::regex_constants::format_no_copy
+0000000000006850 l     O .rodata	0000000000000004              std::regex_constants::format_first_only
+0000000000006854 l     O .rodata	0000000000000004              std::regex_constants::error_collate
+0000000000006858 l     O .rodata	0000000000000004              std::regex_constants::error_ctype
+000000000000685c l     O .rodata	0000000000000004              std::regex_constants::error_escape
+0000000000006860 l     O .rodata	0000000000000004              std::regex_constants::error_backref
+0000000000006864 l     O .rodata	0000000000000004              std::regex_constants::error_brack
+0000000000006868 l     O .rodata	0000000000000004              std::regex_constants::error_paren
+000000000000686c l     O .rodata	0000000000000004              std::regex_constants::error_brace
+0000000000006870 l     O .rodata	0000000000000004              std::regex_constants::error_badbrace
+0000000000006874 l     O .rodata	0000000000000004              std::regex_constants::error_range
+0000000000006878 l     O .rodata	0000000000000004              std::regex_constants::error_space
+000000000000687c l     O .rodata	0000000000000004              std::regex_constants::error_badrepeat
+0000000000006880 l     O .rodata	0000000000000004              std::regex_constants::error_complexity
+0000000000006884 l     O .rodata	0000000000000004              std::regex_constants::error_stack
+0000000000006888 l     O .rodata	0000000000000008              std::__detail::_S_invalid_state_id
+00000000000161c0 l     O .bss	0000000000000020              MassSTR
+0000000000001441 l     F .text	0000000000000016              LenOfMassSTR()
+000000000000148f l     F .text	00000000000000ec              __static_initialization_and_destruction_0(int, int)
+000000000000157b l     F .text	0000000000000019              _GLOBAL__sub_I__Z1Bv
+0000000000000000 l    df *ABS*	0000000000000000              notA.a.cpp
+000000000000afd0 l     O .rodata	0000000000000001              std::piecewise_construct
+000000000000afd1 l     O .rodata	0000000000000001              std::allocator_arg
+000000000000afd2 l     O .rodata	0000000000000001              std::ignore
+00000000000161e0 l     O .bss	0000000000000001              std::__ioinit
+000000000000afd4 l     O .rodata	0000000000000004              __gnu_cxx::__default_lock_policy
+000000000000afd8 l     O .rodata	0000000000000001              std::defer_lock
+000000000000afd9 l     O .rodata	0000000000000001              std::try_to_lock
+000000000000afda l     O .rodata	0000000000000001              std::adopt_lock
+000000000000afdc l     O .rodata	0000000000000004              std::regex_constants::icase
+000000000000afe0 l     O .rodata	0000000000000004              std::regex_constants::nosubs
+000000000000afe4 l     O .rodata	0000000000000004              std::regex_constants::optimize
+000000000000afe8 l     O .rodata	0000000000000004              std::regex_constants::collate
+000000000000afec l     O .rodata	0000000000000004              std::regex_constants::ECMAScript
+000000000000aff0 l     O .rodata	0000000000000004              std::regex_constants::basic
+000000000000aff4 l     O .rodata	0000000000000004              std::regex_constants::extended
+000000000000aff8 l     O .rodata	0000000000000004              std::regex_constants::awk
+000000000000affc l     O .rodata	0000000000000004              std::regex_constants::grep
+000000000000b000 l     O .rodata	0000000000000004              std::regex_constants::egrep
+000000000000b004 l     O .rodata	0000000000000004              std::regex_constants::__polynomial
+000000000000b008 l     O .rodata	0000000000000004              std::regex_constants::match_default
+000000000000b00c l     O .rodata	0000000000000004              std::regex_constants::match_not_bol
+000000000000b010 l     O .rodata	0000000000000004              std::regex_constants::match_not_eol
+000000000000b014 l     O .rodata	0000000000000004              std::regex_constants::match_not_bow
+000000000000b018 l     O .rodata	0000000000000004              std::regex_constants::match_not_eow
+000000000000b01c l     O .rodata	0000000000000004              std::regex_constants::match_any
+000000000000b020 l     O .rodata	0000000000000004              std::regex_constants::match_not_null
+000000000000b024 l     O .rodata	0000000000000004              std::regex_constants::match_continuous
+000000000000b028 l     O .rodata	0000000000000004              std::regex_constants::match_prev_avail
+000000000000b02c l     O .rodata	0000000000000004              std::regex_constants::format_default
+000000000000b030 l     O .rodata	0000000000000004              std::regex_constants::format_sed
+000000000000b034 l     O .rodata	0000000000000004              std::regex_constants::format_no_copy
+000000000000b038 l     O .rodata	0000000000000004              std::regex_constants::format_first_only
+000000000000b03c l     O .rodata	0000000000000004              std::regex_constants::error_collate
+000000000000b040 l     O .rodata	0000000000000004              std::regex_constants::error_ctype
+000000000000b044 l     O .rodata	0000000000000004              std::regex_constants::error_escape
+000000000000b048 l     O .rodata	0000000000000004              std::regex_constants::error_backref
+000000000000b04c l     O .rodata	0000000000000004              std::regex_constants::error_brack
+000000000000b050 l     O .rodata	0000000000000004              std::regex_constants::error_paren
+000000000000b054 l     O .rodata	0000000000000004              std::regex_constants::error_brace
+000000000000b058 l     O .rodata	0000000000000004              std::regex_constants::error_badbrace
+000000000000b05c l     O .rodata	0000000000000004              std::regex_constants::error_range
+000000000000b060 l     O .rodata	0000000000000004              std::regex_constants::error_space
+000000000000b064 l     O .rodata	0000000000000004              std::regex_constants::error_badrepeat
+000000000000b068 l     O .rodata	0000000000000004              std::regex_constants::error_complexity
+000000000000b06c l     O .rodata	0000000000000004              std::regex_constants::error_stack
+000000000000b070 l     O .rodata	0000000000000008              std::__detail::_S_invalid_state_id
+0000000000016200 l     O .bss	0000000000000020              MassSTR
+0000000000001594 l     F .text	0000000000000016              LenOfMassSTR()
+00000000000015f9 l     F .text	00000000000000ec              __static_initialization_and_destruction_0(int, int)
+00000000000016e5 l     F .text	0000000000000019              _GLOBAL__sub_I__Z1Av
+0000000000000000 l    df *ABS*	0000000000000000              some.a.cpp
+000000000000f7b8 l     O .rodata	0000000000000001              std::piecewise_construct
+000000000000f7b9 l     O .rodata	0000000000000001              std::allocator_arg
+000000000000f7ba l     O .rodata	0000000000000001              std::ignore
+0000000000016220 l     O .bss	0000000000000001              std::__ioinit
+000000000000f7bc l     O .rodata	0000000000000004              __gnu_cxx::__default_lock_policy
+000000000000f7c0 l     O .rodata	0000000000000001              std::defer_lock
+000000000000f7c1 l     O .rodata	0000000000000001              std::try_to_lock
+000000000000f7c2 l     O .rodata	0000000000000001              std::adopt_lock
+000000000000f7c4 l     O .rodata	0000000000000004              std::regex_constants::icase
+000000000000f7c8 l     O .rodata	0000000000000004              std::regex_constants::nosubs
+000000000000f7cc l     O .rodata	0000000000000004              std::regex_constants::optimize
+000000000000f7d0 l     O .rodata	0000000000000004              std::regex_constants::collate
+000000000000f7d4 l     O .rodata	0000000000000004              std::regex_constants::ECMAScript
+000000000000f7d8 l     O .rodata	0000000000000004              std::regex_constants::basic
+000000000000f7dc l     O .rodata	0000000000000004              std::regex_constants::extended
+000000000000f7e0 l     O .rodata	0000000000000004              std::regex_constants::awk
+000000000000f7e4 l     O .rodata	0000000000000004              std::regex_constants::grep
+000000000000f7e8 l     O .rodata	0000000000000004              std::regex_constants::egrep
+000000000000f7ec l     O .rodata	0000000000000004              std::regex_constants::__polynomial
+000000000000f7f0 l     O .rodata	0000000000000004              std::regex_constants::match_default
+000000000000f7f4 l     O .rodata	0000000000000004              std::regex_constants::match_not_bol
+000000000000f7f8 l     O .rodata	0000000000000004              std::regex_constants::match_not_eol
+000000000000f7fc l     O .rodata	0000000000000004              std::regex_constants::match_not_bow
+000000000000f800 l     O .rodata	0000000000000004              std::regex_constants::match_not_eow
+000000000000f804 l     O .rodata	0000000000000004              std::regex_constants::match_any
+000000000000f808 l     O .rodata	0000000000000004              std::regex_constants::match_not_null
+000000000000f80c l     O .rodata	0000000000000004              std::regex_constants::match_continuous
+000000000000f810 l     O .rodata	0000000000000004              std::regex_constants::match_prev_avail
+000000000000f814 l     O .rodata	0000000000000004              std::regex_constants::format_default
+000000000000f818 l     O .rodata	0000000000000004              std::regex_constants::format_sed
+000000000000f81c l     O .rodata	0000000000000004              std::regex_constants::format_no_copy
+000000000000f820 l     O .rodata	0000000000000004              std::regex_constants::format_first_only
+000000000000f824 l     O .rodata	0000000000000004              std::regex_constants::error_collate
+000000000000f828 l     O .rodata	0000000000000004              std::regex_constants::error_ctype
+000000000000f82c l     O .rodata	0000000000000004              std::regex_constants::error_escape
+000000000000f830 l     O .rodata	0000000000000004              std::regex_constants::error_backref
+000000000000f834 l     O .rodata	0000000000000004              std::regex_constants::error_brack
+000000000000f838 l     O .rodata	0000000000000004              std::regex_constants::error_paren
+000000000000f83c l     O .rodata	0000000000000004              std::regex_constants::error_brace
+000000000000f840 l     O .rodata	0000000000000004              std::regex_constants::error_badbrace
+000000000000f844 l     O .rodata	0000000000000004              std::regex_constants::error_range
+000000000000f848 l     O .rodata	0000000000000004              std::regex_constants::error_space
+000000000000f84c l     O .rodata	0000000000000004              std::regex_constants::error_badrepeat
+000000000000f850 l     O .rodata	0000000000000004              std::regex_constants::error_complexity
+000000000000f854 l     O .rodata	0000000000000004              std::regex_constants::error_stack
+000000000000f858 l     O .rodata	0000000000000008              std::__detail::_S_invalid_state_id
+0000000000016240 l     O .bss	0000000000000020              MassSTR
+00000000000016fe l     F .text	0000000000000016              LenOfMassSTR()
+0000000000001784 l     F .text	00000000000000ec              __static_initialization_and_destruction_0(int, int)
+0000000000001870 l     F .text	0000000000000019              _GLOBAL__sub_I__Z8notATestv
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+000000000001440c l     O .eh_frame	0000000000000000              __FRAME_END__
+0000000000000000 l    df *ABS*	0000000000000000              
+0000000000013fcc l       .eh_frame_hdr	0000000000000000              __GNU_EH_FRAME_HDR
+0000000000001000 l     F .init	0000000000000000              _init
+0000000000015d30 l     O .dynamic	0000000000000000              _DYNAMIC
+0000000000015d28 l       .init_array	0000000000000000              __init_array_end
+0000000000015d00 l       .init_array	0000000000000000              __init_array_start
+0000000000015f40 l     O .got	0000000000000000              _GLOBAL_OFFSET_TABLE_
+0000000000000000       F *UND*	0000000000000000              printf@@GLIBC_2.2.5
+000000000001616c g     O .bss	0000000000000004              d
+000000000000172b g     F .text	0000000000000017              testPrint()
+0000000000016018 g       .data	0000000000000000              _edata
+0000000000016000  w      .data	0000000000000000              data_start
+0000000000002000 g     O .rodata	0000000000000004              _IO_stdin_used
+0000000000000000  w    F *UND*	0000000000000000              __cxa_finalize@@GLIBC_2.2.5
+0000000000001457 g     F .text	0000000000000038              B()
+00000000000012df g     F .text	000000000000005d              main
+0000000000000000       F *UND*	0000000000000000              std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@@GLIBCXX_3.4
+0000000000016008 g     O .data	0000000000000000              .hidden __dso_handle
+0000000000000000       F *UND*	0000000000000000              std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@@GLIBCXX_3.4.21
+0000000000016010  w    O .data	0000000000000008              .hidden DW.ref.__gxx_personality_v0
+0000000000000000       F *UND*	0000000000000000              std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const@@GLIBCXX_3.4.21
+0000000000001908 g     F .fini	0000000000000000              .hidden _fini
+0000000000000000       F *UND*	0000000000000000              __cxa_atexit@@GLIBC_2.2.5
+00000000000011e0 g     F .text	000000000000002f              _start
+0000000000000000       F *UND*	0000000000000000              std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              std::ostream::operator<<(std::ostream& (*)(std::ostream&))@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              std::allocator<char>::~allocator()@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              __stack_chk_fail@@GLIBC_2.4
+0000000000016018 g     O .data	0000000000000000              .hidden __TMC_END__
+0000000000016040 g     O .bss	0000000000000110              std::cout@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4.21
+0000000000016160 g     O .bss	0000000000000004              a
+0000000000016000 g       .data	0000000000000000              __data_start
+0000000000016260 g       .bss	0000000000000000              _end
+0000000000001714 g     F .text	0000000000000017              notATest()
+0000000000001742 g     F .text	0000000000000042              testPrint(int)
+0000000000016018 g       .bss	0000000000000000              __bss_start
+0000000000000000       F *UND*	0000000000000000              std::ios_base::Init::Init()@@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              puts@@GLIBC_2.2.5
+0000000000001890 g     F .text	0000000000000065              __libc_csu_init
+0000000000016164 g     O .bss	0000000000000004              b
+0000000000000000       F *UND*	0000000000000000              __gxx_personality_v0@@CXXABI_1.3
+00000000000015aa g     F .text	000000000000004f              A()
+0000000000000000       F *UND*	0000000000000000              std::ostream::operator<<(int)@@GLIBCXX_3.4
+0000000000000000  w      *UND*	0000000000000000              _ITM_deregisterTMCloneTable
+0000000000000000       F *UND*	0000000000000000              _Unwind_Resume@@GCC_3.0
+0000000000000000       F *UND*	0000000000000000              std::allocator<char>::allocator()@@GLIBCXX_3.4
+0000000000001900 g     F .text	0000000000000005              __libc_csu_fini
+0000000000016168 g     O .bss	0000000000000004              c
+0000000000000000       F *UND*	0000000000000000              __libc_start_main@@GLIBC_2.2.5
+0000000000000000  w      *UND*	0000000000000000              __gmon_start__
+0000000000000000  w      *UND*	0000000000000000              _ITM_registerTMCloneTable
+0000000000000000       F *UND*	0000000000000000              std::ios_base::Init::~Init()@@GLIBCXX_3.4
+
+
